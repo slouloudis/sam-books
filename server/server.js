@@ -5,10 +5,10 @@ const app = express()
 app.use(cors())
 const PORT = process.env.PORT || 2000;
 
-const newBook = require('./routes/newBook')
+const newMovies = require('./routes/newMovies')
 // import routes
 
-app.post('/newBook', newBook)
+app.post('/movies', newMovies)
 
 
 // routing is how we determine how an application responds to a request from the client. 
