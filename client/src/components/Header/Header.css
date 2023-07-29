@@ -9,10 +9,12 @@
     margin: 0.2rem;
 }
 
+/* Container  */
 .flex--container ul {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
+    gap: 2.2rem;
 }
 
 .flex--container ul li {
