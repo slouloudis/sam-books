@@ -1,0 +1,42 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Yatra+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,500;1,1000&display=swap');
+
+
+
+
+.card--container--glass {
+    /* background: rgba( 0, 0, 0, 0.15 ); */
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 7px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: 5px 55px;
+    width: 24rem;
+    height: 37rem;
+}
+
+.flex--container--card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* TEXT STYLES */
+.card--header-stylish {
+    font-size: 30px;
+    font-family: 'Mulish', cursive;
+    font-weight: 200;
+    color: white;
+}
+
+.txt-500-regular {
+    font-family: 'Mulish', sans-serif;
+    color: white;
+}
+
+.img {
+    width: 300px;
+    height: 423px;
+}

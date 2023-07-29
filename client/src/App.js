@@ -1,6 +1,7 @@
 import './App.css';
 import axios from 'axios'
 import Header from './components/Header/Header';
+import Main from './components/Main';
 
 function App() {
 
@@ -9,10 +10,9 @@ function App() {
     let result = axios.post('/movie', movieID)
   }
   return (
-    <div className="App">
+    <div className="App bg">
       <Header/>
-      <button onClick={handleClick}></button>
-
+      <Main />
     </div>
   );
 }

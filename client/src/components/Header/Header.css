@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Yatra+One&display=swap');
+
 .flex--container {
     display:flex;
     justify-content: center;
@@ -19,4 +21,12 @@
 
 .flex--container ul li {
 
+}
+
+.txt-200-regular {
+    font-style: italic;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 100;
+    color: white;
+    -webkit-line-break: normal;
 }
