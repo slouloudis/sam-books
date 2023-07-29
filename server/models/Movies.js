@@ -4,8 +4,9 @@ const {Schema} = mongoose;
 
 const movieSchema = new Schema({
   name: String,
+  img_url: String,
   director: String,
-  isGood: Boolean
+  year: Number,
 })
 
 const Movie = mongoose.model('Movie', movieSchema)

@@ -5,15 +5,16 @@ const dotenv = require('dotenv')
 const app = express()
 const Movie = require('./models/Movies')
 app.use(cors())
+app.use(express.json())
 dotenv.config()
 const PORT = process.env.PORT || 2000;
 
-
+//const newMovies = require()
 
 // connect to our mongoDB database. 
 mongoose.connect(process.env.DATABASE_URL).then(() => console.log('DB connected'))
 
-app.post('/movies', newMovies)
+//app.post('/movies', newMovies)
 
 
 // routing is how we determine how an application responds to a request from the client. 
@@ -30,13 +31,42 @@ app.post('/movies', newMovies)
 // this is the root url, with the HTTP method (get). What is going to happen when someone hits this URL? We provide a callback function. we can use the response object, and the send method on that to send a string back. 
 app.get('/', (req,res) => res.status(200).send(`Whoa, you've made it`))
 
-app.get('/cats', async (req, res) => {
+// createa
+
+app.post('/movies', async (req,res) => {
+  try {
+    console.log(req)
+    const newMovie = await Movie.create(req.body);
+    res.status(200).json(newMovie)
+  } catch (error){
+    console.log(error)
+    res.status(500).json(error)
+  }
+})
+
+// read 
+app.get('/movies', async (req, res) => {
   try {
     const movies = await Movie.find(req.query) // eg the name of the movie
-    response.status(200).json(movies)
+    res.status(200).json(movies)
   } catch (err) {
     console.log(err)
-    response.status(404).json(err)
+    res.status(404).json(err)
+  }
+})
+
+// update 🧐
+
+// Delete
+
+app.delete('movies/:id', async (req, res)=> {
+  try {
+    const id = request.params.id;
+    const deletedCat = await Movie.findByIdAndDelete(id);
+    res.status(200).send(deletedCat);
+  } catch (err) {
+    console.log(error)
+    res.status(500).json(error)
   }
 })
 
