@@ -1,4 +1,5 @@
 import React, {useState }from 'react'
+import './Form.css'
 import axios from 'axios'
 
 export default function Form({onSubmit, movie}) {
@@ -21,12 +22,12 @@ export default function Form({onSubmit, movie}) {
 
   return (
     <div>
-      <form onSubmit={submit}>
+      <form onSubmit={submit} className='form--container'>
         <input name="name" placeholder='movie name' onChange={handleChange} value={formData.name}></input>
         <input name='img_url' placeholder='img url' onChange={handleChange} value={formData.img_url}></input>
         <input name='director' placeholder='director' onChange={handleChange} value={formData.director}></input>
         <input name='year' placeholder='year' onChange={handleChange} value={formData.year}></input>
-        <button type='submit'>{movie ? 'Update' : 'Add'} Movie</button>
+        <button type='submit'>{movie ? 'Update' : 'Add Movie'}</button>
       </form>
     </div>
   )

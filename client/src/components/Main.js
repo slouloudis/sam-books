@@ -39,7 +39,8 @@ export default function Main() {
   // update moive
   const handleUpdateMovie = async (movie) => {
     await axios.put(`http://localhost:2000/movies/${movie._id}`, movie)
-    await getMovies();
+    //setMovies([...movies])
+    getMovies();
   }
     
   return (

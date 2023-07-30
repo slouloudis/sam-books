@@ -12,7 +12,7 @@ export default function MovieCard({movies, handleDelete, handleUpdateMovie}) {
     <div className='gallery-main-flex'>
       {movies.map((movie, index) => {
         return (
-          <div key={index} className='card--container--glass'>
+          <div key={movie._id} className='card--container--glass'>
             <div className='flex--container--card'>
             <p className='txt-500-regular button--delete' onClick={() => handleDelete(movie._id, movie.name)}>X</p>
             <h3 className='card--header-stylish'>{movie.name}</h3>

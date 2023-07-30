@@ -1,0 +1,138 @@
+[{
+  "_id": {
+    "$oid": "64c51dafcb4ed1f77fc0e9cb"
+  },
+  "name": "Lady Snowblood",
+  "img_url": "https://posters.movieposterdb.com/14_02/1973/158714/l_158714_ded53746.jpg",
+  "director": "Toshiya Fujita",
+  "isGood": true,
+  "__v": 0,
+  "year": 1231
+},{
+  "_id": {
+    "$oid": "64c5233704cb301ad4af7147"
+  },
+  "name": "Primer",
+  "img_url": "https://posters.movieposterdb.com/05_09/2004/0390384/l_54699_0390384_b8bbcab7.jpg",
+  "director": "Shane Carruth",
+  "isGood": true,
+  "__v": 0,
+  "year": 2001
+},{
+  "_id": {
+    "$oid": "64c67c651eeb0dcc9a02bcca"
+  },
+  "name": "Pulse",
+  "img_url": "https://xl.movieposterdb.com/13_04/2001/286751/xl_286751_9a006c49.jpg?v=2022-10-25%2007:20:47",
+  "director": "Kiyoshi Kurosawa",
+  "year": 2005,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c67ceb1eeb0dcc9a02bccc"
+  },
+  "name": "Arrival",
+  "img_url": "https://xl.movieposterdb.com/22_10/2016/2543164/xl_arrival-movie-poster_a18b5408.jpg?v=2023-07-27%2005:01:36",
+  "director": "Denis Villenueve",
+  "year": 2016,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c67dd81eeb0dcc9a02bcd0"
+  },
+  "name": "Pi",
+  "img_url": "https://xl.movieposterdb.com/14_09/1998/138704/xl_138704_228dd0ff.jpg?v=2022-10-25%2022:18:52",
+  "director": "Darren Aronofsky",
+  "year": 1998,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c67ea11eeb0dcc9a02bcd2"
+  },
+  "name": "A Clockwork Orange",
+  "img_url": "https://xl.movieposterdb.com/10_02/1971/66921/xl_66921_6ce7659c.jpg?v=2023-04-28%2001:47:39",
+  "director": " Stanley Kubrick",
+  "year": 1972,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c67f6f1eeb0dcc9a02bcd4"
+  },
+  "name": "Day of Wrath",
+  "img_url": "https://xl.movieposterdb.com/11_09/1943/36506/xl_36506_5258c5d7.jpg?v=2022-10-26%2005:45:36",
+  "director": "Carl Dreyer",
+  "year": 1948,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c67fb81eeb0dcc9a02bcd6"
+  },
+  "name": "Black Narcissus",
+  "img_url": "https://xl.movieposterdb.com/13_09/1947/39192/xl_39192_b13dc554.jpg?v=2022-09-02%2021:20:09",
+  "director": "Michael Powell",
+  "year": 1947,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6b75f7ad19c8dc4520b4c"
+  },
+  "name": "Enter the Void",
+  "img_url": "https://xl.movieposterdb.com/10_08/2009/1191111/xl_1191111_b1fa0cd5.jpg?v=2023-07-22%2023:52:18",
+  "director": "Gasper Noé",
+  "year": 2010,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6c54d7ad19c8dc4520b4e"
+  },
+  "name": "Suspiria",
+  "img_url": "https://posters.movieposterdb.com/09_10/1977/76786/l_76786_71d11cfb.jpg",
+  "director": "Dario Argento",
+  "year": 1977,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6c6697ad19c8dc4520b50"
+  },
+  "name": "Harakiri",
+  "img_url": "https://posters.movieposterdb.com/11_04/1962/56058/l_56058_bfd94e44.jpg",
+  "director": " Masaki Kobayashi",
+  "year": 1964,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6c8067ad19c8dc4520b54"
+  },
+  "name": "Perfect Blue",
+  "img_url": "https://xl.movieposterdb.com/22_05/1997/156887/xl_156887_b7fc272e.jpg?v=2023-06-08%2017:57:51",
+  "director": "Satoshi Kon",
+  "year": 1998,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6c99b7ad19c8dc4520b58"
+  },
+  "name": "The Evil Dead ",
+  "img_url": "https://xl.movieposterdb.com/13_03/1981/83907/xl_83907_4301617f.jpg?v=2022-10-11%2021:41:31",
+  "director": " Sam Raimi",
+  "year": 1983,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6caae7ad19c8dc4520b5c"
+  },
+  "name": "Apocalypse Now",
+  "img_url": "https://xl.movieposterdb.com/21_08/1979/78788/xl_78788_0ca99005.jpg?v=2022-05-12%2013:26:40",
+  "director": " Francis Ford Coppola",
+  "year": 1979,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "64c6f6a3fa4d55cd6ab993b8"
+  },
+  "name": "Taxi Driver ",
+  "img_url": " https://xl.movieposterdb.com/08_04/1976/75314/xl_75314_9e3745a0.jpg?v=2023-04-11%2011:56:43",
+  "director": "  Martin Scorsese",
+  "year": 1976,
+  "__v": 0
+}]
