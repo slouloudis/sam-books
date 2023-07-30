@@ -57,6 +57,11 @@ app.get('/movies', async (req, res) => {
 
 // update 🧐
 
+app.put('/movies/:id', async (req, res) => {
+  const updateMovie = await Movie.findByIdAndUpdate(req.params.id, req.body)
+  res.status(200).json(updateMovie)
+})
+
 // Delete
 
 app.delete('/movies/:id', async (req, res)=> {

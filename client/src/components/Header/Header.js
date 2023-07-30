@@ -4,12 +4,12 @@ import './Header.css'
 export default function Header() {
   return (
     <header className='flex--container'>
-        <div className='txt-200-regular '>Some Logo</div>
-        <ul className='flex--item flex--container'>
-            <li><a href='' className='txt-200-regular'>Collections</a></li>
-            <li><a href='' className='txt-200-regular'><em>Current</em></a></li>
-            <li><a href='' className='txt-200-regular'>Upload</a></li>
-        </ul>
+      <div className='txt-200-regular '>Some Logo</div>
+      <ul className='flex--item flex--container'>
+        <li><a href='' className='txt-200-regular'>Collections</a></li>
+        <li><a href='' className='txt-200-regular'><em>Current</em></a></li>
+        <li><a href='' className='txt-200-regular'>Upload</a></li>
+      </ul>
     </header>
   )
 }
