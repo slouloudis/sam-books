@@ -36,6 +36,13 @@ export default function Main() {
         console.log(res.data)
         setMovies(res.data)
       }
+
+      const handleDelete = async (id) => {
+        console.log('clicked')
+        const res = await axios.delete(`http://localhost:2000/movies/${id}`)
+        console.log(res)
+        getMovies()
+      }
     
   return (
     <div>
@@ -46,7 +53,7 @@ export default function Main() {
             <input name='year' placeholder='year' onChange={handleChange}></input>
             <button type='submit'>Add Movie</button>
         </form>
-        <MovieCard movies={movies}/>
+        <MovieCard movies={movies} handleDelete={handleDelete}/>
     </div>
   )
 }

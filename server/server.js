@@ -59,11 +59,13 @@ app.get('/movies', async (req, res) => {
 
 // Delete
 
-app.delete('movies/:id', async (req, res)=> {
+app.delete('/movies/:id', async (req, res)=> {
+  console.log(req)
   try {
-    const id = request.params.id;
-    const deletedCat = await Movie.findByIdAndDelete(id);
-    res.status(200).send(deletedCat);
+    const id = req.params.id;
+    console.log(id)
+    const deletedMovie = await Movie.findByIdAndDelete(id);
+    res.status(200).send(deletedMovie);
   } catch (err) {
     console.log(error)
     res.status(500).json(error)
